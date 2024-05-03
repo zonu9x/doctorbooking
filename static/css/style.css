@@ -1,0 +1,14 @@
+li :hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    color: rgb(0, 42, 255);
+    border: 1px solid rgb(251, 4, 4);
+    
+}
+
+   
+    
+
+.navbar{
+    color: rgb(49, 92, 20);
+}

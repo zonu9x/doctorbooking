@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Doctors
+{%endblock%}
+
+{% block content %}
+{% load static %} 
+<h1 class="text-center text-danger"><b>OUR DOCTORS </b></h1>
+<hr>
+
+<div class="container text-center bg-dark margin-20px">
+
+    
+    <div class="row row-cols-1 row-cols-md-2 g-4 ">
+        <div class="col margin-20px">
+          <div class="card">
+            <img src="{%uploads '/doctors/Christopher_Nolan1_GO60Kdb.jpg' }" class="card-img-top" alt="Nolan">
+            <div class="card-body">
+              <h5 class="card-title">CHRISTOPHER NOLAN</h5>
+              <p class="card-text">Sir Christopher Edward Nolan CBE is a British and American filmmaker. Known for his Hollywood blockbusters with complex storytelling, he is considered a leading filmmaker of the 21st century. Nolan's films have earned over $6 billion worldwide, making him the seventh-highest-grossing film director of all time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DAVID FINCHER</h5>
+              <p class="card-text">David Andrew Leo Fincher is an American film director. His films, most of which are psychological thrillers, have collectively grossed over $2.1 billion worldwide and have received numerous accolades, including three Academy Awards for Best Director nominations for him.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">JAMES CAMEROON</h5>
+              <p class="card-text">James Francis Cameron CC is a Canadian filmmaker. He is a major figure in the post-New Hollywood era. He often uses novel technologies with a classical filmmaking style.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MARTIN CHARLES</h5>
+              <p class="card-text">Martin Charles Scorsese is an American filmmaker. He emerged as one of the major figures of the New Hollywood era. Scorsese has received many accolades, including an Academy Award, four BAFTA Awards, three Emmy Awards, a Grammy Award, three Golden Globe Awards, and two Directors Guild of America Awards.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   
+</div>
+
+
+{% endblock %}
